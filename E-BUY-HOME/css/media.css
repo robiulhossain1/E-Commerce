@@ -1,0 +1,230 @@
+/************EX Small Device************/
+@media(max-width:575.98px){
+    .top_left{
+        text-align: center;
+    }
+    .banner_text p{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+}
+.banner_text h4{
+    padding-top: 20px;
+}
+    #banner{
+    background-image: url(../image/banner.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+}
+    .banner_arrow{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    z-index: 99;
+}
+    .banner_button a{
+    padding: 8px 86px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    -webkit-transition: all linear 0.4s;
+    transition: all linear 0.4s;
+    text-transform: uppercase;
+    color: white;
+}
+    .search{
+    display: none;
+    position: relative;
+}
+.search input{
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    background: transparent;
+    padding-left: 5px;
+    border: 1px solid #444;
+    -webkit-transition: all linear 0.4s;
+    cursor: pointer;
+    transition: all linear 0.4s;
+    display: none
+}
+.search input:focus{
+    opacity: 1;
+    cursor: text;
+}
+.search i{
+    font-weight: 900;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.icon{
+    display: none;
+    color: #de4644;
+    cursor: pointer;
+}
+.navbar{
+    text-align: center;
+}
+ul li a:hover::after {
+    position: absolute;
+    content: '';
+    top: 35px;
+    width: 100%;
+    background: #de4644;
+    height: 2px;
+    left: -3px;
+    -webkit-transition: all linear 0.4s;
+    transition: all linear 0.4s;
+}
+
+ul li a:hover::before {
+    position: absolute;
+    content: '';
+    top: 35px;
+    left: -3px;
+    width: 100%;
+    background: #de4644;
+    height: 2px;
+    -webkit-transition: all linear 0.4s;
+    transition: all linear 0.4s;
+}
+
+    
+}
+@media(max-width:768px){
+    .top_left:after {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 75px;
+        background: #ddd;
+        height: 50px;
+        width: 1px;
+    }
+
+    .top_left:before{
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 152px;
+        background: #ddd;
+        height: 50px;
+        width: 1px;
+    }
+    .top_left {
+        text-align: center;
+    }
+
+    .banner_text p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        padding-right: 100px;
+        padding-bottom: 30px;
+    }
+
+    .banner_text h4 {
+        padding-top: 20px;
+    }
+
+    #banner {
+        background-image: url(../image/banner.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 0;
+        position: relative;
+    }
+
+    .banner_arrow {
+        position: absolute;
+        bottom: 5px;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        z-index: 99;
+    }
+
+    .banner_button a {
+        padding: 8px 131px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        -webkit-transition: all linear 0.4s;
+        transition: all linear 0.4s;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .search {
+        display: none;
+        position: relative;
+    }
+
+    .search input {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        right: 20px;
+        background: transparent;
+        padding-left: 5px;
+        border: 1px solid #444;
+        -webkit-transition: all linear 0.4s;
+        cursor: pointer;
+        transition: all linear 0.4s;
+        display: none
+    }
+
+    .search input:focus {
+        opacity: 1;
+        cursor: text;
+    }
+
+    .search i {
+        font-weight: 900;
+        margin-right: 30px;
+        cursor: pointer;
+    }
+
+    .icon {
+        display: none;
+        color: #de4644;
+        cursor: pointer;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+
+    ul li a:hover::after {
+        position: absolute;
+        content: '';
+        top: 35px;
+        width: 100%;
+        background: #de4644;
+        height: 2px;
+        left: -3px;
+        -webkit-transition: all linear 0.4s;
+        transition: all linear 0.4s;
+    }
+
+    ul li a:hover::before {
+        position: absolute;
+        content: '';
+        top: 35px;
+        left: -3px;
+        width: 100%;
+        background: #de4644;
+        height: 2px;
+        -webkit-transition: all linear 0.4s;
+        transition: all linear 0.4s;
+    }
+}
